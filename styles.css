@@ -10,7 +10,6 @@ ul {
     display: flex;
     justify-content: space-between;
     flex-direction: column;  
-    color: #69696a;
     text-decoration: none;
     width: auto;
     padding: 2px;
@@ -61,6 +60,7 @@ span {
 p {
     border-left: 2px solid #69696a;
     padding-left: 4px;
+    color: #69696a;
 }
 
 
