@@ -1,0 +1,68 @@
+@import url(https://fonts.google.com/?query=open+san&selection.family=Open+Sans);
+
+body {
+    font-family: 'Open-Sans', sans-serif;
+    background-color: #f9fafc;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;  
+    color: #69696a;
+    text-decoration: none;
+    width: auto;
+    padding: 2px;
+    margin: auto;
+}
+
+button {
+    background-color: #000;
+    border: none;
+    border-radius: 40px;
+    width: 100%;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: auto;
+    color: #69696a;
+}
+a.link{
+    color:#69696a;
+}
+a.visited {
+    color: #69696a;
+}
+
+span {
+    color: #fff;
+    background-color: #000;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-content: center; 
+    box-sizing: border-box;
+    border-radius: 40px;
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+}
+
+p {
+    border-left: 2px solid #69696a;
+    padding-left: 4px;
+}
+
+
+
+   
