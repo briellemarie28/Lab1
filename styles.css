@@ -28,6 +28,9 @@ button {
     display: inline-block;
     font-size: 16px;
 }
+.hire {
+    color: #fff;
+}
 
 a{
     text-decoration: none;
@@ -43,26 +46,51 @@ a.visited {
     color: #69696a;
 }
 
-span {
-    color: #fff;
-    background-color: #000;
-    display: inline-block;
-    text-align: center;
-    justify-content: center;
-    align-content: center; 
-    box-sizing: border-box;
-    border-radius: 40px;
-    height: 45px;
-    line-height: 45px;
-    width: 100%;
-}
-
 p {
     border-left: 2px solid #69696a;
     padding-left: 4px;
     color: #69696a;
 }
 
+svg {
+    display: none;
+}
 
-
-   
+@media only screen and (min-width: 768px)
+{
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;   
+        margin-top: 0%;      
+}
+li a {
+    padding: 15px;
+}
+ header {
+   margin-top: 20px;
+}
+p {
+    width: 50%;
+}
+button {
+    display: flex;
+    width: auto;
+}
+.bottom {
+    position:absolute;
+    bottom:0px;
+    height: 10%;
+    /*width: 100%;*/
+    transform: translateX(0,100%);
+    margin-left: 50%;
+}
+svg {
+    display: flex;
+    position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 65%;
+}
+}
